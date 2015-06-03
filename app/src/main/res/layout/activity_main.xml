@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="36sp" />
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="#b2ebf2"
+        android:text="@string/buttonA"
+        android:onClick="showMessage"/>
+    <Button
+        android:id="@+id/buttonB"
+        android:onClick="showMessage"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="#80deea"
+        android:text="@string/buttonB" />
+    <Button
+        android:id="@+id/buttonC"
+        android:onClick="showMessage"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="#4dd0e1"
+        android:text="@string/buttonC" />
+    <Button
+        android:id="@+id/buttonD"
+        android:onClick="showMessage"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="#26c6da"
+        android:text="@string/buttonD" />
+    <Button
+        android:id="@+id/buttonE"
+        android:onClick="showMessage"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="#00bcd4"
+        android:text="@string/buttonE" />
+    <Button
+        android:id="@+id/buttonF"
+        android:onClick="showMessage"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:background="#00838f"
+        android:textColor="#ffffff"
+        android:text="@string/buttonF" />
+</LinearLayout>
